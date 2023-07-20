@@ -124,9 +124,52 @@ margin-top: 0px;
 }
 
 .banner-img-section{
-    /* width: 100%; */
     margin-right: 150px;
 }
 
 /* Online games Style */
+.online-game-text{
+    text-align: center;
+}
 
+.online-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 5px;
+
+}
+
+.online-title-span{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.online-text{
+    margin-top: 0px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Online games cards style */
+.online-games-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.game-img{
+    width: 280px;
+    height: 320px;
+}
+
+.game-paragraph{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}

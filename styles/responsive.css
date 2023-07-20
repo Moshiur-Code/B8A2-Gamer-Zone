@@ -19,4 +19,13 @@
         width: 300px;
         margin-left: 20px;        
     }
+
+    .online-games-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 30px 10px;
+    }
+    .online-games-cards .game-card{
+        margin-bottom: 20px;
+    }
 }
