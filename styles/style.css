@@ -213,3 +213,30 @@ line-height: 30px;
     bottom: 300px;
     right: 150px;
 }
+
+
+/* Icon section style */
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* Logo Style */
+.logo-container-one{
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.logo-container-two{
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.logo-img{
+width: 60px;
+height: 60px;
+}
